@@ -1,3 +1,4 @@
+package dsa_with_dedication.two_pointer;
 /* 
 Problem: Two Sum
 Platform: LeetCode
@@ -8,7 +9,6 @@ Time Complexity: O(n)
 Space Complexity: O(n)
 */
 
-package dsa_with_dedication.two_pointer;
 /* 
 import java.util.HashMap;
 import java.util.Map;
@@ -35,13 +35,15 @@ public class two_sum {
 }
 */
 
-/*Problem: Two Sum
+/*
+Problem: Two Sum
 Platform: LeetCode
 Pattern: two pointer
 Difficulty: Easy
 
 Time Complexity: O(n)
-Space Complexity: O(1) */
+Space Complexity: O(1) 
+*/
 
 public class two_sum{
     public static int[] twosum (int nums[], int target)
