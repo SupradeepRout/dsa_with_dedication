@@ -10,7 +10,7 @@ Input:  [-4, -1, 0, 3, 10]
 Output: [0, 1, 9, 16, 100]
 
 ## Approach
-1. Separate negative and positive numbers.
+1. Separate negative and positive numbeqrs.
 2. Square all elements.
 3. Reverse the squared negative list.
 4. Merge both sorted lists using two pointers.
