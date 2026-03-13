@@ -24,6 +24,7 @@ Difficulty Level: Medium
 Platform: LeetCode (Problem 16: 3Sum Closest)
 """
 
+
 class triplet_sum_closest:
     def closest_sum(self ,nums :list[int], target : int)-> int :
         nums.sort()

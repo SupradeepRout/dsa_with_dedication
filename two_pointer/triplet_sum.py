@@ -10,28 +10,15 @@ Example:
     Input:  [-1, 0, 1, 2, -1, -4]
     Output: [[-1, -1, 2], [-1, 0, 1]]
 
-Platform: LeetCode #15, GeeksforGeeks, typical coding-interview question.
+Platform: LeetCode #15 
+
 Difficulty: Medium
 
-Approach (two-pointer after sorting):
-    1. Sort the list to allow the two-pointer technique and easy duplicate
-       detection.
-    2. Iterate each index i for the first element of a potential triplet.
-       - Skip any i that is the same as the previous value to avoid repeats.
-       - Use two pointers (left, right) initialized just after i and at the end of
-         the array.  Compute pair sum and compare with -nums[i].
-       - Move pointers inward based on comparisons; when a matching triplet is
-         found, add it and skip over further duplicates.
-    3. Continue until all possibilities are exhausted.
+Approach : two-pointer after sorting
 
 Time Complexity: O(n^2) worst-case (sorting is O(n log n) plus two-pointer scan).
 Space Complexity: O(k) for result list (k = number of found triplets), O(1)
 extra space otherwise.
-
-Usage:
-    - Run this file as a script to see a sample invocation.
-    - Import `three_sum` class and call `find_triplet()` from other code.
-
 """
 
 class three_sum :
