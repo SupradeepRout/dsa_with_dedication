@@ -1,3 +1,14 @@
+'''
+Definition :Given a string s and an integer k,
+return the length of the longest substring of s that contains at most k distinct characters.
+Approach : Sliding Window
+Time Complexity : O(n) where n is the length of the string
+Space Complexity : O(k) where k is the number of distinct characters allowed
+Difficulty : Medium
+youtube Link : https://www.youtube.com/watch?v=v4pIgiBQMh8&list=PLbJhGqY-mq47k_WLUtzVjmarUm1EuXPj2&index=13
+problem link : https://leetcode.com/problems/fruit-into-baskets/submissions/1951816378/
+'''
+
 class fruit_in_bucket:
     def total_fruits(self , fruits :list[int] )-> int :
         n = len(fruits)

@@ -24,10 +24,8 @@ class substring_with_same_letter :
             
             while (diff > k ):          # we need to shrink the window as we cannot replace more than k characters to make all characters same
                 char_freq[s[low]] -= 1
-                
-               # if char_freq[s[low]] == 0 :
-               #     del char_freq[s[low]]
-                    
+                ''' if char_freq[s[low]] == 0 : 
+                        del char_freq[s[low]]  # not equired for this problem '''
                 low += 1
                 window_size =  high -low + 1 
                 max_freq = max(char_freq.values())

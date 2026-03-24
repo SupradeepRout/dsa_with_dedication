@@ -9,6 +9,8 @@ problem Link : https://leetcode.com/problems/longest-substring-without-repeating
 
 class substring_without_duplicate :
     def longestSubstring(self ,s : str)-> int :
+        if s == "":
+            return 0
         n = len(s)
         low , high = 0,0
         char_freq = {}
