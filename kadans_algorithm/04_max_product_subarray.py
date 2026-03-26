@@ -26,7 +26,7 @@ class max_product_subarray :
         return result
 
 if __name__ == "__main__":
-    arr=[-2,3,-2,-4]
+    arr=[-2,3,-2,-4,5]
     obj = max_product_subarray()
     result = obj.maxProduct(arr)
-    print(f"The maximum product subarray is : {result}")
+    print(f"The maximum product subarray is: {result}")
