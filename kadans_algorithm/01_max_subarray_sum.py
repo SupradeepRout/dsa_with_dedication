@@ -1,3 +1,18 @@
+'''
+
+Definition : Given an array of integers, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+Approach : Kadane's Algorithm
+Time Complexity : O(n) where n is the length of the array
+Space Complexity : O(1)
+Difficulty : Medium
+problem Link : https://leetcode.com/problems/maximum-subarray/description/
+YouTube Link : https://www.youtube.com/watch?v=5WZlEdbKEeY&list=PLbJhGqY-mq47k_WLUtzVjmarUm1EuXPj2&index=22
+
+'''
+
+
+
+
 class max_subarray_sum :
     def maxSum(self, nums: list[int])-> int :
         n= len(nums)
